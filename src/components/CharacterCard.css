@@ -1,0 +1,33 @@
+/* src/components/CharacterCard.css */
+.character-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .character-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .character-card h3 {
+    font-size: 1.2em;
+    margin: 8px 0;
+  }
+  
+  .character-card button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .character-card button:hover {
+    background-color: #45a049;
+  }
+  
